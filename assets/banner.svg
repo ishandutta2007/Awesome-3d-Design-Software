@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#090d11" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="50%" stop-color="#bc8cff" />
+      <stop offset="100%" stop-color="#3fb950" />
+    </linearGradient>
+    <linearGradient id="cubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="2" />
+
+  <!-- Dynamic / Animated Background Wireframe Cube Grid -->
+  <g opacity="0.25">
+    <polygon points="1000,60 1080,100 1080,180 1000,140" fill="none" stroke="#58a6ff" stroke-width="2">
+      <animate transform="rotate(360 1040 120)" attributeName="transform" type="rotate" from="0 1040 120" to="360 1040 120" dur="20s" repeatCount="indefinite" />
+    </polygon>
+    <polygon points="1000,60 920,100 920,180 1000,140" fill="none" stroke="#bc8cff" stroke-width="2">
+      <animate transform="rotate(360 1040 120)" attributeName="transform" type="rotate" from="0 1040 120" to="360 1040 120" dur="20s" repeatCount="indefinite" />
+    </polygon>
+    <polygon points="1000,60 1080,100 1000,140 920,100" fill="none" stroke="#3fb950" stroke-width="2">
+      <animate transform="rotate(360 1040 120)" attributeName="transform" type="rotate" from="0 1040 120" to="360 1040 120" dur="20s" repeatCount="indefinite" />
+    </polygon>
+  </g>
+
+  <!-- Dynamic Moving Wave Particles (Background Layer) -->
+  <g opacity="0.15">
+    <circle cx="150" cy="280" r="80" fill="url(#cubeGrad)">
+      <animate attributeName="cy" values="280;260;280" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="850" cy="80" r="100" fill="url(#cubeGrad)">
+      <animate attributeName="cx" values="850;880;850" dur="8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- FOREGROUND LAYER: Title and Subtitle -->
+  <g transform="translate(60, 0)">
+    <!-- Main Title -->
+    <text x="0" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="52" fill="url(#titleGrad)" letter-spacing="1">
+      Awesome 3D Design Software 🎨🎨
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="22" fill="#8b949e">
+      Curated List of Commercial SaaS &amp; Open-Source Parametric CAD, Sculpting &amp; 3D Modeling Tools 🚀✨
+    </text>
+
+    <!-- Tags / Pills in Foreground -->
+    <g transform="translate(0, 230)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="160" height="36" rx="18" fill="#1f6feb" fill-opacity="0.2" stroke="#1f6feb" stroke-width="1.5" />
+      <text x="80" y="23" font-family="sans-serif" font-size="14" font-weight="600" fill="#58a6ff" text-anchor="middle">⚙️ Parametric CAD</text>
+
+      <!-- Pill 2 -->
+      <rect x="175" y="0" width="170" height="36" rx="18" fill="#238636" fill-opacity="0.2" stroke="#238636" stroke-width="1.5" />
+      <text x="260" y="23" font-family="sans-serif" font-size="14" font-weight="600" fill="#3fb950" text-anchor="middle">🗿 Digital Sculpting</text>
+
+      <!-- Pill 3 -->
+      <rect x="360" y="0" width="160" height="36" rx="18" fill="#8957e5" fill-opacity="0.2" stroke="#8957e5" stroke-width="1.5" />
+      <text x="440" y="23" font-family="sans-serif" font-size="14" font-weight="600" fill="#bc8cff" text-anchor="middle">🖨️ 3D Printing STL</text>
+
+      <!-- Pill 4 -->
+      <rect x="535" y="0" width="150" height="36" rx="18" fill="#da3633" fill-opacity="0.2" stroke="#da3633" stroke-width="1.5" />
+      <text x="610" y="23" font-family="sans-serif" font-size="14" font-weight="600" fill="#f85149" text-anchor="middle">🌐 WebCAD &amp; AI</text>
+    </g>
+  </g>
+</svg>
