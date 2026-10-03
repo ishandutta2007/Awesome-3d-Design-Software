@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-3d-Design-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3d-Design-Software?style=flat" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3d-Design-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3d-Design-Software?style=flat" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-3d-Design-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-3d-Design-Software?style=flat" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-3d-Design-Software/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-3d-Design-Software" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -59,9 +59,9 @@ The 3D design software market features well-established commercial platforms tai
 
 The open-source 3D design ecosystem is exceptionally mature and production-proven, spanning parametric mechanical CAD engines, digital sculpting, and code-driven geometry generators. 
 
-Projects below are sorted by GitHub Star Count (descending).
+Projects below are sorted by GitHub Stars_Count (descending).
 
-| Project & Repo Link 📦 | GitHub Stars ⭐ | License 📜 | Ecosystem Category 🏷️ | Description & Highlights ⚡ |
+| Project & Repo Link 📦 | GitHub_Stars ⭐ | License 📜 | Ecosystem Category 🏷️ | Description & Highlights ⚡ |
 | :--- | :--- | :--- | :--- | :--- |
 | **[FreeCAD](https://github.com/FreeCAD/FreeCAD)** | <a href="https://github.com/FreeCAD/FreeCAD/stargazers"><img src="https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white" alt="FreeCAD Stars"/></a> | LGPL-2.1 | Parametric CAD | **Premier Open-Source Parametric Modeler.** Feature-based history tree, constraint 2D Sketcher, FEM simulation, CAM/CNC workbenches, and BIM support. |
 | **[Blender](https://github.com/blender/blender)** | <a href="https://github.com/blender/blender/stargazers"><img src="https://img.shields.io/github/stars/blender/blender?style=social&color=white" alt="Blender Stars"/></a> | GPL-3.0 | Organic Sculpting & 3D Suite | **Industry Standard Open-Source 3D Suite.** Professional polygon modeling, digital sculpting, Cycles/Eevee photorealistic rendering, VFX, and animation. |
@@ -121,3 +121,12 @@ If you find this curated 3D design software registry useful, consider supporting
 ---
 
 <p align="center">Made with ❤️ for engineers, artists, makers, and 3D printing enthusiasts worldwide.</p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-3d-Design-Software&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-3d-Design-Software_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-3d-Design-Software_growth.svg">
+  </picture>
+</a>
